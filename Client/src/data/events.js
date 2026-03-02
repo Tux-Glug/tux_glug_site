@@ -1,32 +1,34 @@
 const events = [
   {
-    id: "linux-install-fest",
-    title: "Linux Installation Fest 2026",
-    author: "Tux GLUG Team",
+    id: "inittux",
+    title: "InitTux",
+    author: "MOHAMED B SIRAJUDDEEN",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    publishedAt: "2025-05-02",
+    image: "/tux_glug_site/images/event-imgs//events-inittux.jpg",
     excerpt:
-      "A hands-on session focused on installing and configuring GNU/Linux distributions for beginners.",
+      "InitTux marked the official initialization of the FOSS GLUG at RGCET, featuring SudoKode, a competitive open-source coding challenge, and Tuxtone, a creative poster design event centered on the theme “Open Source, Open Future.”",
     content: `
-The Linux Installation Fest 2026 was conducted to introduce students to
-the fundamentals of GNU/Linux systems.
+InitTux was conducted as part of the official initialization of the FOSS GLUG at RGCET, marking the beginning of a structured and student-driven open-source community within the campus.
 
-Participants were guided through:
+The event brought together enthusiastic participants from various departments to engage in two major competitions designed to promote both technical excellence and creative expression within the domain of Free and Open-Source Software (FOSS).
 
-• Choosing a Linux distribution
-• Creating bootable USB drives
-• Disk partitioning
-• Installing Ubuntu and Fedora
-• Post-install configuration
+The first event, “SudoKode,” was a competitive coding challenge aimed at testing participants’ problem-solving skills and logical thinking abilities. Students were allowed to use any open-source programming language of their choice, reinforcing the spirit of flexibility and freedom in software development. The problems ranged from algorithmic challenges to real-world scenario-based tasks, encouraging participants to think critically and write efficient code under time constraints.
 
-The session concluded with a Q&A discussion and troubleshooting round.
+The second event, “Tuxtone,” focused on creativity and awareness. Participants were tasked with designing posters based on the theme “Open Source, Open Future.” The objective was to visually communicate the importance of open collaboration, transparency, community-driven development, and the transformative potential of open-source technologies in shaping the future of innovation. The event witnessed a wide range of artistic interpretations, highlighting the students’ understanding of the philosophy behind open-source movement.
+
+InitTux successfully blended technical rigor with creative exploration, setting the tone for future activities under the FOSS GLUG. The enthusiastic participation and engagement reflected the growing interest among students in open-source technologies and collaborative development culture.
+
+The event concluded with appreciation for all participants and organizers, reinforcing the commitment of FOSS GLUG to continue fostering a strong open-source ecosystem within the institution.
+    
 `
   },
   {
     id: "mou-signing",
     title: "MoU Signing Ceremony",
-    author: "Mohamed B Sirajuddeen",
+    author: "MOHAMED B SIRAJUDDEEN",
     readTime: "2 min read",
+    publishedAt: "2025-03-21",
     image: "/tux_glug_site/images/event-imgs/events-mou_signing.jpg",
     excerpt:
       "RGCET CSE officially signed an MoU with the Free Software Hardware Movement (FSHM), Puducherry, establishing a collaborative initiative to promote Free and Open-Source Software activities on campus.",

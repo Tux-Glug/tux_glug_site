@@ -15,7 +15,9 @@ export default function EventCard({ event }) {
           <h2 className="text-xl text-green-400 mb-2">
             {event.title}
           </h2>
-
+          <p className="text-gray-500 text-xs mb-2">
+            {new Date(event.publishedAt).toDateString()}
+          </p>
           <p className="text-gray-400 text-sm mb-4">
             {event.author} • {event.readTime}
           </p>

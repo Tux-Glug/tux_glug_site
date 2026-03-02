@@ -16,6 +16,14 @@ export default function EventDetails() {
         <h1 className="text-4xl text-green-400 mb-4">
           {event.title}
         </h1>
+        <p className="text-gray-400 mb-2">
+          {new Date(event.publishedAt).toLocaleDateString("en-IN", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
+
 
         <p className="text-gray-400 mb-8">
           {event.author} • {event.readTime}
