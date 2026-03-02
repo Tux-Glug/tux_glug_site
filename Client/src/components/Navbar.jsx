@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center py-6">
       {/* Logo */}
       <h1 className="text-green-400 text-xl font-bold">
-        &gt; FOSS // GLUG
+        &gt; RGCET FOSS CELL // TUX GLUG
       </h1>
 
       {/* Desktop Menu */}
