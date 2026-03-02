@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <div className="min-h-screen px-6 sm:px-10 lg:px-24">
       <Navbar />
-      <div className="min-h-screen px-6 md:px-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
