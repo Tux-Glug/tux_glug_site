@@ -23,6 +23,9 @@ export default function Navbar() {
         <NavLink to="/blogs" className={activeClass}>
           Blogs
         </NavLink>
+        <NavLink to="/sessions" className={activeClass}>
+          Sessions
+        </NavLink>
 
         <NavLink to="/events" className={activeClass}>
           Events
@@ -54,6 +57,9 @@ export default function Navbar() {
             className={activeClass}
           >
             Blogs
+          </NavLink>
+          <NavLink to="/sessions" className={activeClass}>
+            Sessions
           </NavLink>
 
           <NavLink to="/events" onClick={() => setIsOpen(false)} className={activeClass}>
