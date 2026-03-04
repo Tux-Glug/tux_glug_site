@@ -10,7 +10,7 @@ const sessions = [
         speaker: "RAVI KUMAR M S",
         location: "Library",
         time: "9 March 2026 | 14:00 15:00",
-        publishedAt: "2026-03-03",
+        publishedAt: "2026-03-09",
         isUpcoming: true,
         image: "/tux_glug_site/images/upcoming-poster.jpeg",
         content: `
@@ -34,7 +34,7 @@ Topics include:
         speaker: "RITHIK RATHAN",
         location: "Library",
         time: "2 March 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-03",
+        publishedAt: "2026-03-02",
         isUpcoming: false,
         image: "/tux_glug_site/images/session-imgs/sessions-day4.jpeg",
         content: `
@@ -107,7 +107,7 @@ The session concluded with a discussion on how adopting such tools early in a de
         speaker: "AATISH ASHOK",
         location: "Library",
         time: "23 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-03",
+        publishedAt: "2026-02-23",
         isUpcoming: false,
         image: "/tux_glug_site/images/session-imgs/sessions-day3.jpeg",
         content: `
@@ -171,7 +171,7 @@ The workshop successfully bridged theoretical understanding and practical applic
         speaker: "MOHAMED B SIRAJUDDEEN",
         location: "Library",
         time: "16 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-03",
+        publishedAt: "2026-02-16",
         isUpcoming: false,
         image: "/tux_glug_site/images/session-imgs/sessions-day2.jpeg",
         content: `
@@ -228,7 +228,7 @@ The session reinforced that mastering Git and GitHub is a stepping stone toward 
         speaker: "MOHAMED B SIRAJUDDEEN",
         location: "Library",
         time: "09 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-03",
+        publishedAt: "2026-02-09",
         isUpcoming: false,
         image: "/tux_glug_site/images/session-imgs/sessions-day1.jpeg",
         content: `

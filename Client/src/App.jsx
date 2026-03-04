@@ -12,8 +12,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="min-h-screen px-6 sm:px-10 lg:px-24">
         <Navbar />
+      <div className="min-h-screen pt-24 px-6 sm:px-10 lg:px-24">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
