@@ -18,10 +18,10 @@ export default function Hero() {
 
       <div className="space-x-4">
         <Link
-          to="/blogs"
+          to="/sessions"
           className="bg-green-500 text-black px-6 py-3 rounded hover:bg-green-400 transition"
         >
-          Read Blogs
+          Session History
         </Link>
 
         <Link
