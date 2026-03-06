@@ -6,7 +6,7 @@ const blogs = [
     author: "AATISH ASHOK",
     readTime: "5 min read",
     publishedAt: "2026-03-01",
-    image: "/tux_glug_site/images/blog-imgs/3rdOrganizationalConf.jpeg",
+    image: "/tux_glug_site/images/blog-imgs/3rd_Org_Conf.heic",
     excerpt:
       "Loading...",
     content: `
