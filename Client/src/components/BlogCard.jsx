@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function BlogCard({ blog }) {
   return (
-    <Link to={`/blogs/${blog.id}`}>
-      <div className="border border-gray-800 rounded-xl overflow-hidden hover:border-green-400 transition duration-300">
+    <Link to={`/blogs/${blog.id}`} className="h-full">
+      <div className="border border-gray-800 rounded-xl overflow-hidden hover:border-green-400 transition duration-300 flex flex-col h-full">
 
         <img
           src={blog.image}
@@ -11,7 +11,7 @@ export default function BlogCard({ blog }) {
           className="w-full h-48 object-cover"
         />
 
-        <div className="p-6">
+        <div className="p-6 flex flex-col flex-grow">
           <h2 className="text-xl text-green-400 mb-2">
             {blog.title}
           </h2>
@@ -20,11 +20,11 @@ export default function BlogCard({ blog }) {
             {blog.author} • {blog.readTime}
           </p>
 
-          <p className="text-gray-400 mb-4">
+          <p className="text-gray-400 mb-4 flex-grow">
             {blog.excerpt}
           </p>
 
-          <p className="text-gray-500 text-xs">
+          <p className="text-gray-500 text-xs mt-auto">
             {new Date(blog.publishedAt).toLocaleDateString()}
           </p>
         </div>
