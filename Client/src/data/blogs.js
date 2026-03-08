@@ -8,12 +8,28 @@ const blogs = [
     publishedAt: "2026-03-01",
     image: "/tux_glug_site/images/blog-imgs/3rd_Org_Conf.heic",
     excerpt:
-      "Loading...",
+      "A look back at my experience attending the 3rd Organizational Conference of FSHM Pondicherry, where members of different GLUG communities gathered to discuss free software, privacy tools, and the future of the open technology movement.",
     content: `
-Building content...
-loading words...
-Running Terminal...
-Rebooting system...
+On Sunday (01/03/2026), I attended the 3rd Organizational Conference organized by Free Software Hardware Movement along with Kavin, Rithik and Siraj bro. The event was held at the Confederation of Government Employees Associations.
+The purpose of the conference was for the community to come together and revisit the work done in the past two years, and also to prioritize the things the community wants to focus on for the next two years.
+
+During the conference, a lot of interesting things were discussed. One of the tools that caught my attention was SearXNG, which is a free and open-source metasearch engine that aggregates results from different search engines while protecting user privacy. Another thing that was mentioned was the community-operated private DNS service (dns.fshm.org), which aims to provide a more privacy-respecting DNS alternative.
+
+Representatives from UNITE (Union of IT & ITES Employees) were also present at the conference. They spoke about job security, employee rights, and the importance of collective representation for workers in the IT industry. It was interesting to hear about the challenges faced by many IT workers today and the role unions can play in protecting their rights.
+
+I also had the chance to meet members from other GNU/Linux user groups such as SOTC GLUG, Puduvai GLUG, and Cuddalore GLUG. We had some good discussions about our communities, what activities we have done so far, and what we want to do in the future. I also spoke about our own community, TUX GLUG, and the things we have been working on.
+
+Another inspiring part of the conference was meeting long-time contributors in the free software community. One of them was Shrinivasan T, who along with his small team has been contributing to Tamil language support and Tamil presence on the internet through open-source projects for more than 25 years. Hearing about his work and dedication was really inspiring.
+
+It was also great to see many alumni from our college who are active members in the free software community and involved in the movement.
+
+One discussion that really stayed with me was about the future of the Android platform. There are concerns that Android may become more locked down in the future. It was mentioned that developers may soon need to register centrally with Google and agree to its terms and conditions before developing and distributing apps. Developers who want their apps on the Play Store already need to pay a fee and comply with Google's policies, and this raises concerns about how much independence indie developers will have in the future.
+
+As someone interested in open technology and free software, this really concerns me because Android has historically been one of the more open mobile platforms. If it becomes more controlled, it could make things harder for independent developers and smaller creators.
+
+If you want to learn more about this issue, you can check the Keep Android Open initiative.
+
+Overall, attending the conference was a really great experience. I was able to learn about interesting tools, hear important discussions about technology and worker rights, meet other GLUG communities, and get inspired by contributors who have been working in the free software movement for many years.
 `
   },
 
