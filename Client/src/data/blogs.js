@@ -8,7 +8,7 @@ const blogs = [
     publishedAt: "2026-03-01",
     image: "/tux_glug_site/images/blog-imgs/3rd_Org_Conf.heic",
     excerpt:
-      "A look back at my experience attending the 3rd Organizational Conference of FSHM Pondicherry, where members of different GLUG communities gathered to discuss free software, privacy tools, and the future of the open technology movement.",
+      "Reflecting on attending the 3rd Organizational Conference of FSHM Pondicherry, where GLUG communities came together to discuss free software, privacy tools, and the future of open technology.",
     content: `
 On Sunday (01/03/2026), I attended the 3rd Organizational Conference organized by Free Software Hardware Movement along with Kavin, Rithik and Siraj bro. The event was held at the Confederation of Government Employees Associations.
 The purpose of the conference was for the community to come together and revisit the work done in the past two years, and also to prioritize the things the community wants to focus on for the next two years.
