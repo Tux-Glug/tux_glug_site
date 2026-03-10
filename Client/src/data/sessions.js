@@ -36,7 +36,7 @@ Compiling content...
         isUpcoming: false,
         image: "/tux_glug_site/images/session-imgs/sessions-day5.jpeg",
         content: `
-        The session titled “The Telecom Transformation” explored the dramatic changes in India’s telecom industry over the past two decades. It focused on how the market evolved from having more than a dozen competing telecom companies to just a few dominant players, the economic pressures that caused this consolidation, and how India eventually became the country with some of the cheapest internet services in the world. 
+        The session titled “The Telecom Transformation” explored the dramatic changes in India’s telecom industry over the past two decades. It focused on how the market evolved from having more than a dozen competing telecom companies to just a few dominant players, the economic pressures that caused this consolidation, and how India eventually became the country with some of the cheapest internet services in the world.
 
 In the early days of mobile connectivity in India, the telecom sector was highly competitive. At one point, 12 major telecom operators were competing for subscribers across the country.
 
@@ -87,9 +87,9 @@ Another major challenge faced by telecom companies was the issue of Adjusted Gro
 
 AGR refers to the revenue telecom companies must report to the government in order to calculate license fees and spectrum usage charges. For years, telecom operators and the government disagreed about how AGR should be calculated.
 
-Eventually, the courts ruled in favor of the government, forcing telecom companies to pay massive outstanding dues. 
+Eventually, the courts ruled in favor of the government, forcing telecom companies to pay massive outstanding dues.
 
-A major turning point in the telecom industry came with the launch of Reliance Jio
+A major turning point in the telecom industry came with the launch of Reliance Jio
 
 Jio entered the market with a bold strategy:
 
@@ -116,7 +116,7 @@ This structure is often described as an oligopoly, where only a small number of 
 
 Despite the struggles within the industry, the telecom transformation ultimately benefited consumers.
 
-India now has some of the cheapest mobile data prices in the world, enabling millions of people to access the internet at affordable rates
+India now has some of the cheapest mobile data prices in the world, enabling millions of people to access the internet at affordable rates
 
 The transformation of India’s telecom industry is a powerful example of how competition, technology, regulation, and disruption can reshape an entire sector.
 
