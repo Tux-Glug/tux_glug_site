@@ -141,7 +141,7 @@ export default function About() {
                 className="w-32 h-32 mx-auto rounded-full object-cover mb-6"
               />
               <h3 className="text-xl text-green-400 mb-2">
-                KARNEISH
+                KARNEISH S
               </h3>
               <p className="text-gray-400 text-sm">
                 President
@@ -364,7 +364,7 @@ export default function About() {
                 className="w-32 h-32 mx-auto rounded-full object-cover mb-6"
               />
               <h3 className="text-xl text-green-400 mb-2">
-                KISHORE
+                KISHORE KUMAR R
               </h3>
               <p className="text-gray-400 text-sm">
                 Executive Member
