@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import blogs from "../data/blogs";
 import BlogCard from "../components/BlogCard";
+import GithubActivities from "../components/GithubActivities";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -32,6 +33,8 @@ export default function Home() {
           View all →
         </Link>
       </section>
+
+      <GithubActivities />
     </>
   );
 }

@@ -1,41 +1,39 @@
-
 //* ------------------------------------------------------------------------------------------------------------------
 //TODO; UPCOMING SESSION
 //* ------------------------------------------------------------------------------------------------------------------
 
 const sessions = [
-    {
-        id: "loading",
-        title: "Loading...",
-        speaker: "Unknown",
-        location: "Library",
-        time: "9 March 2026 | 14:00 15:00",
-        publishedAt: "2026-03-23",
-        isUpcoming: true,
-        image: "/tux_glug_site/images/foss_notfound.jpg",
-        content: `
+  {
+    id: "loading",
+    title: "Loading...",
+    speaker: "Unknown",
+    location: "Library",
+    time: "9 March 2026 | 14:00 15:00",
+    publishedAt: "2026-03-23",
+    isUpcoming: true,
+    image: "/tux_glug_site/images/foss_notfound.jpg",
+    content: `
 Initializing session...
 Processing data...
 Fetching speaker information...
 Configuring session details...
 Compiling content...
-`
-    },
+`,
+  },
 
-
-    //* ------------------------------------------------------------------------------------------------------------------
-    // PAST SESSIONS
-    //* ------------------------------------------------------------------------------------------------------------------
-    {
-        id: "the-telecom-transformation",
-        title: "The Telecom Transformation",
-        speaker: "RAVI KUMAR MS",
-        location: "Library",
-        time: "9 March 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-09",
-        isUpcoming: false,
-        image: "/tux_glug_site/images/session-imgs/sessions-day5.jpeg",
-        content: `
+  //* ------------------------------------------------------------------------------------------------------------------
+  // PAST SESSIONS
+  //* ------------------------------------------------------------------------------------------------------------------
+  {
+    id: "the-telecom-transformation",
+    title: "The Telecom Transformation",
+    speaker: "RAVI KUMAR MS",
+    location: "Library",
+    time: "9 March 2026 | 14:00 - 15:00",
+    publishedAt: "2026-03-09",
+    isUpcoming: false,
+    image: "/tux_glug_site/images/session-imgs/sessions-day5.jpeg",
+    content: `
         The session titled “The Telecom Transformation” explored the dramatic changes in India’s telecom industry over the past two decades. It focused on how the market evolved from having more than a dozen competing telecom companies to just a few dominant players, the economic pressures that caused this consolidation, and how India eventually became the country with some of the cheapest internet services in the world.
         
 In the early days of mobile connectivity in India, the telecom sector was highly competitive. At one point, 12 major telecom operators were competing for subscribers across the country.
@@ -100,20 +98,20 @@ If smaller players fail to survive, the telecom industry could eventually be dom
 Despite the challenges, one undeniable outcome of the telecom transformation is that India now has some of the cheapest mobile data in the world.
 Affordable internet has played a crucial role in expanding digital access and enabling services such as online education, digital payments, and streaming platforms.
 However, the long-term sustainability of such low prices remains uncertain if the market continues to consolidate.
-        `
-    },
-    
-    {
-        id: "tmux-vim-make",
-        title: "Open Source Tools",
-        speaker: "RITHIK RATHAN",
-        location: "Library",
-        time: "2 March 2026 | 14:00 - 15:00",
-        publishedAt: "2026-03-02",
-        isUpcoming: false,
-        image: "/tux_glug_site/images/session-imgs/sessions-day4.jpeg",
-        content: `
-        The session titled “Mastering Open-Source Developer Tools — Make, Vim, and Tmux” was conducted as a technical deep dive into essential command-line tools that significantly enhance developer productivity and workflow efficiency.
+        `,
+  },
+
+  {
+    id: "tmux-vim-make",
+    title: "Open Source Tools",
+    speaker: "RITHIK RATHAN",
+    location: "Library",
+    time: "2 March 2026 | 14:00 - 15:00",
+    publishedAt: "2026-03-02",
+    isUpcoming: false,
+    image: "/tux_glug_site/images/session-imgs/sessions-day4.jpeg",
+    content: `
+The session titled “Mastering Open-Source Developer Tools — Make, Vim, Tmux, OpenSSH” was conducted as a technical deep dive into essential command-line tools that significantly enhance developer productivity and workflow efficiency.
 
 The objective of the session was to move students beyond GUI-dependent development and introduce them to powerful terminal-based tools widely used in professional and open-source development environments.
 
@@ -121,71 +119,72 @@ The session began with an introduction to Make and build automation. Students we
 
 Key concepts covered included:
 
-• Structure of a Makefile  
-• Targets and dependencies  
-• Rules and recipes  
-• Variables in Makefiles  
-• Incremental builds  
+• Structure of a Makefile
+• Targets and dependencies
+• Rules and recipes
+• Variables in Makefiles
+• Incremental builds
 
 A live demonstration showed how Make automatically recompiles only modified source files, reducing build time and minimizing errors. The importance of reproducible builds and automation in large-scale projects was emphasized. Students were shown how Make is foundational in C/C++ projects and still widely used in modern development pipelines.
 
-The session then transitioned to Vim, a highly efficient modal text editor. Students were introduced to the philosophy of modal editing and how Vim differs from conventional editors.
+The session then transitioned to Vim, a powerful terminal-based text editor. Students were introduced to Vim primarily for its ability to run entirely within the command line, making it an essential tool for remote development and server management.
 
 Core Vim concepts included:
 
-• Normal mode, Insert mode, and Visual mode  
-• Navigation using h, j, k, l  
-• Efficient text manipulation commands  
-• Copy (yank), paste, delete operations  
-• Search and replace  
-• Working with multiple files  
-• Basic configuration through .vimrc  
+• Basic text editing and navigation within the terminal
+• Opening and modifying files directly on a remote server
+• Normal mode and Insert mode basics
+• Search, replace, and text manipulation
+• Working with multiple files without a graphical interface
 
-The session highlighted how Vim improves editing speed once the keybindings become intuitive, reducing reliance on mouse interactions and increasing workflow efficiency. Students practiced editing files entirely within the terminal to experience the speed advantage.
+The session highlighted how students practiced editing files entirely within the terminal to experience how seamlessly it pairs with tools like Tmux and OpenSSH for uninterrupted remote workflows.
 
-The final tool covered was Tmux — a terminal multiplexer that allows multiple terminal sessions within a single window.
+The next tool covered was Tmux — a terminal multiplexer that allows multiple terminal sessions within a single window.
 
 Topics covered included:
 
-• Creating and attaching sessions  
-• Splitting windows horizontally and vertically  
-• Switching between panes  
-• Detaching and reattaching sessions  
-• Running long processes without interruption  
+• Creating and attaching sessions
+• Splitting windows horizontally and vertically
+• Switching between panes
+• Detaching and reattaching sessions
+• Running long processes without interruption
 
 The practical value of Tmux was demonstrated in scenarios such as:
 
-• Managing multiple servers  
-• Running background builds  
-• Monitoring logs while coding  
-• Maintaining persistent sessions on remote machines  
+• Managing multiple servers
+• Running background builds
+• Monitoring logs while coding
+• Maintaining persistent sessions on remote machines
 
 Students were shown how Tmux is particularly useful when working over SSH, as sessions remain active even if the network connection drops.
 
-Throughout the session, emphasis was placed on the broader benefits of mastering open-source tools:
+The final tool covered was OpenSSH, which served to tie the entire workflow together into a seamless remote development experience.
 
-• Improved efficiency and speed  
-• Better understanding of system-level operations  
-• Reduced dependency on proprietary IDEs  
-• Increased portability across environments  
-• Alignment with industry-standard development workflows  
+Key concepts covered included:
+
+• Securely connecting to remote servers
+• Key-based authentication vs. passwords
+• Synchronizing changes to the SSH server
+
+A unified workflow was demonstrated showing how these tools integrate: connecting to a remote server via OpenSSH, attaching to a persistent Tmux session, editing code directly with Vim, and executing builds with Make. Students were shown how Tmux carries the session across OpenSSH, meaning they can start a coding session on one device, disconnect, and later reattach from a completely different device to find their exact environment and running processes perfectly preserved.
+
 
 The session reinforced that modern software development is not limited to writing code alone, but also involves managing builds, navigating systems efficiently, and working within robust development environments.
 
 The session concluded with a discussion on how adopting such tools early in a developer’s journey builds discipline, technical depth, and confidence in handling real-world engineering tasks.
-`
-    },
+`,
+  },
 
-    {
-        id: "git-workshop",
-        title: "Git Workshop",
-        speaker: "AATISH ASHOK",
-        location: "Library",
-        time: "23 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-02-23",
-        isUpcoming: false,
-        image: "/tux_glug_site/images/session-imgs/sessions-day3.jpeg",
-        content: `
+  {
+    id: "git-workshop",
+    title: "Git Workshop",
+    speaker: "AATISH ASHOK",
+    location: "Library",
+    time: "23 February 2026 | 14:00 - 15:00",
+    publishedAt: "2026-02-23",
+    isUpcoming: false,
+    image: "/tux_glug_site/images/session-imgs/sessions-day3.jpeg",
+    content: `
         The “Git Workshop — Deep Dive into Version Control” session was conducted as an advanced, hands-on continuation of the introductory Git session. The primary objective was to move beyond theory and actively engage students in practical version control workflows used in real-world software development.
 
 The session began with a deeper explanation of version control systems and why they are essential in collaborative environments. Students were introduced to concepts such as distributed repositories, commit history tracking, change snapshots, and the importance of maintaining a clean and traceable development timeline.
@@ -237,19 +236,19 @@ Students were encouraged to move from passive users to active contributors by pa
 The session concluded with practical guidance on how students can begin contributing to open-source projects, starting with small issues and gradually progressing toward more complex contributions.
 
 The workshop successfully bridged theoretical understanding and practical application, equipping students with hands-on experience in version control and collaborative development practices.
-`
-    },
+`,
+  },
 
-    {
-        id: "intro-to-git",
-        title: "Introduction to Git",
-        speaker: "MOHAMED B SIRAJUDDEEN",
-        location: "Library",
-        time: "16 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-02-16",
-        isUpcoming: false,
-        image: "/tux_glug_site/images/session-imgs/sessions-day2.jpeg",
-        content: `
+  {
+    id: "intro-to-git",
+    title: "Introduction to Git",
+    speaker: "MOHAMED B SIRAJUDDEEN",
+    location: "Library",
+    time: "16 February 2026 | 14:00 - 15:00",
+    publishedAt: "2026-02-16",
+    isUpcoming: false,
+    image: "/tux_glug_site/images/session-imgs/sessions-day2.jpeg",
+    content: `
 The “Introduction to Git and GitHub” session was conducted to familiarize students with version control systems, collaborative development workflows, and modern open-source contribution practices.
 
 The session began with an introduction to the concept of version control. Version control is a system that records changes made to files over time, enabling developers to track modifications, revert to previous versions, and collaborate efficiently without overwriting each other’s work. Students were introduced to the limitations of traditional file sharing methods and how version control solves issues such as code conflicts, duplication, and loss of previous versions.
@@ -294,19 +293,19 @@ Students were added as members and encouraged to participate in collaborative de
 The session concluded with a discussion on how version control is essential in professional software development environments. Students were made aware that Git proficiency is not optional in the industry — it is a fundamental skill required for internships, research projects, and full-time roles.
 
 The session reinforced that mastering Git and GitHub is a stepping stone toward contributing to open-source projects and becoming effective collaborative developers.
-`
-    },
+`,
+  },
 
-    {
-        id: "intro-to-linux",
-        title: "Introduction to FOSS",
-        speaker: "MOHAMED B SIRAJUDDEEN",
-        location: "Library",
-        time: "09 February 2026 | 14:00 - 15:00",
-        publishedAt: "2026-02-09",
-        isUpcoming: false,
-        image: "/tux_glug_site/images/session-imgs/sessions-day1.jpeg",
-        content: `
+  {
+    id: "intro-to-linux",
+    title: "Introduction to FOSS",
+    speaker: "MOHAMED B SIRAJUDDEEN",
+    location: "Library",
+    time: "09 February 2026 | 14:00 - 15:00",
+    publishedAt: "2026-02-09",
+    isUpcoming: false,
+    image: "/tux_glug_site/images/session-imgs/sessions-day1.jpeg",
+    content: `
 The “Introduction to FOSS” session was conducted to provide students with a foundational understanding of Free and Open-Source Software (FOSS), its origins, philosophy, and relevance in the modern technological landscape.
 
 The session began with a historical overview of how and why the Free Software Movement was started. In the early 1980s, Richard Stallman initiated the movement in response to the growing trend of proprietary software, which restricted users from accessing, modifying, or redistributing source code. The core idea behind FOSS is software freedom — the freedom to run, study, modify, and share software without restrictive licensing barriers.
@@ -338,8 +337,9 @@ The discussion did not claim that such systems inherently cause data breaches, b
 Students were encouraged to critically evaluate software ecosystems not merely based on popularity, but based on principles of transparency, control, security, and long-term sustainability.
 
 The session concluded with an interactive discussion on how students can contribute to open-source projects, start using Linux distributions, and participate in collaborative software development communities.
-`
-    }
+`,
+  },
 ];
 
 export default sessions;
+
