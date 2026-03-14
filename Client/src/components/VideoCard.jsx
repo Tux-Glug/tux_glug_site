@@ -7,7 +7,7 @@ export default function VideoCard({ video }) {
         
         <div className="relative">
           <img
-            src={`https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`}
+            src={`https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`} // get the thumbnail??
             alt={video.title}
             className="w-full h-40 object-cover"
           />
